@@ -3,7 +3,7 @@ entries:
   base-chart:
   - apiVersion: v2
     appVersion: '{{ .Env.APP_VERSION }}'
-    created: "2023-01-23T14:16:33.753462+02:00"
+    created: "2023-01-23T14:21:26.073259+02:00"
     description: base-chart
     digest: f2f24c8788926a05437e3fea3eff06e834a75b883e5cf39ed5d6872ea02391b5
     home: https://github.com/scentbird/helm-charts
@@ -12,6 +12,6 @@ entries:
     - https://github.com/scentbird/helm-charts
     type: application
     urls:
-    - https://github.com/scentbird/helm-charts/base-chart-1.4.1.tgz
+    - https://scentbird.github.io/helm-charts/base-chart-1.4.1.tgz
     version: 1.4.1
-generated: "2023-01-23T14:16:33.752596+02:00"
+generated: "2023-01-23T14:21:26.071758+02:00"
