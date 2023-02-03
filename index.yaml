@@ -3,9 +3,9 @@ entries:
   argo-chart:
   - apiVersion: v2
     appVersion: '{{ .Env.APP_VERSION }}'
-    created: "2023-02-03T15:22:20.787858543Z"
+    created: "2023-02-03T17:57:32.379407754Z"
     description: argo-chart
-    digest: ec7df823cf5e52ca72ab315a04457bd2abc41378221bfc739b18ec7f7ae717f4
+    digest: cc98113b48e1cae49d2b07adfcc97b48cb060a8bdd521abcab8edd5daae51e5c
     home: https://github.com/scentbird/scentbird-config
     name: argo-chart
     sources:
@@ -16,10 +16,9 @@ entries:
     version: 1.0.1
   base-canary-chart:
   - apiVersion: v2
-    appVersion: '{{ .Env.APP_VERSION }}'
-    created: "2023-02-03T15:22:20.788648842Z"
+    created: "2023-02-03T17:57:32.38004536Z"
     description: base-canary-chart
-    digest: 4472add74570c242f10ef0c6a671884de7ad0210800f2afb03c562e141fd1175
+    digest: 6f318bab67fbead2aa73b3b776d2a8976ce62758e2ebbeba67d0769b1aac015d
     home: https://github.com/scentbird/scentbird-config
     name: base-canary-chart
     sources:
@@ -30,9 +29,9 @@ entries:
     version: 1.5.0
   base-chart:
   - apiVersion: v2
-    created: "2023-02-03T15:22:20.789384342Z"
+    created: "2023-02-03T17:57:32.380634165Z"
     description: base-chart
-    digest: 2180031d1fc4650213646efc75bd88b62b0f0544b24a9f25c99f055b67c2cc60
+    digest: 58549386d2ba9488b023f2ee8cdc940835a68f36c3e1fbb747d18c224680ae18
     home: https://github.com/scentbird/scentbird-config
     name: base-chart
     sources:
@@ -56,9 +55,9 @@ entries:
   cron-chart:
   - apiVersion: v2
     appVersion: '{{ .Env.APP_VERSION }}'
-    created: "2023-02-03T15:22:20.790044042Z"
+    created: "2023-02-03T17:57:32.381109769Z"
     description: cron-chart
-    digest: 66952476b1843bc9017de8da8afdc65e04e211c1f0d27c82b7b2004ea2b41a37
+    digest: 72b097c1eb6c44c79bd45475f670def89bc4b2fdd31883c60ebcb6fb47d1c279
     home: https://github.com/scentbird/scentbird-config
     name: cron-chart
     sources:
@@ -67,4 +66,4 @@ entries:
     urls:
     - https://scentbird.github.io/helm-charts/cron-chart-1.1.0.tgz
     version: 1.1.0
-generated: "2023-02-03T15:22:20.782341045Z"
+generated: "2023-02-03T17:57:32.378730248Z"
