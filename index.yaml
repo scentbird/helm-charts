@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   argo-chart:
   - apiVersion: v2
-    created: "2023-02-09T16:49:37.898578859Z"
+    created: "2023-02-09T16:55:58.139713937Z"
     description: argo-chart
-    digest: cacb37ccc1de26c82bd6e25a2992bae334f5aa29fcd39b3eefb2d1cc0f120fa3
+    digest: 2fb7679cd710bd6df8e8dc086b78af881c16ae4dc4389c6a41be118e678cfa0f
     home: https://github.com/scentbird/scentbird-config
     name: argo-chart
     sources:
@@ -28,9 +28,9 @@ entries:
     version: 1.0.1
   base-canary-chart:
   - apiVersion: v2
-    created: "2023-02-09T16:49:37.899268887Z"
+    created: "2023-02-09T16:55:58.140387137Z"
     description: base-canary-chart
-    digest: 2800aabaa53e9444cbbcc4122fce54806a0ba90a1f5d495261ebbf3dcf5f3349
+    digest: 2c0a9f63020def030bb8eb8d6f65cb4d11b1883081696dee4a9e0de646dc0cd3
     home: https://github.com/scentbird/scentbird-config
     name: base-canary-chart
     sources:
@@ -41,9 +41,9 @@ entries:
     version: 1.5.0
   base-chart:
   - apiVersion: v2
-    created: "2023-02-09T16:49:37.899928613Z"
+    created: "2023-02-09T16:55:58.140979337Z"
     description: base-chart
-    digest: 97761f57a023f093a5fc57646e41be4f6024fc54f56a886b428f1ed3a756b8d7
+    digest: 1df63c86e5d395cc3ca5bc77e961bec2613a2ef1ef5be9ebeb8189d41cf14524
     home: https://github.com/scentbird/scentbird-config
     name: base-chart
     sources:
@@ -91,9 +91,9 @@ entries:
   cron-chart:
   - apiVersion: v2
     appVersion: '{{ .Env.APP_VERSION }}'
-    created: "2023-02-09T16:49:37.900447333Z"
+    created: "2023-02-09T16:55:58.141470338Z"
     description: cron-chart
-    digest: 10f9e2b0194f292399e46f0b164430ee4106ff82a6ef83fec08a2c3bf2c86a36
+    digest: c07ccc3140d90198ea8bee78eb40d46fbbc05ff23a602cdddf795a98d4c2ab2c
     home: https://github.com/scentbird/scentbird-config
     name: cron-chart
     sources:
@@ -102,4 +102,4 @@ entries:
     urls:
     - https://scentbird.github.io/helm-charts/cron-chart-1.1.0.tgz
     version: 1.1.0
-generated: "2023-02-09T16:49:37.897852031Z"
+generated: "2023-02-09T16:55:58.138481836Z"
