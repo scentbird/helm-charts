@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   argo-chart:
   - apiVersion: v2
-    created: "2023-12-01T17:28:24.783286606Z"
+    created: "2023-12-11T20:39:30.193231826Z"
     description: argo-chart
-    digest: 8a67ebef438e7ff343ac57a9d1851dc594ee96936cdc74e623a2ddd0a5cea88c
+    digest: 78068df88e706fea19f0259e95a3246a052af8b36a069223a2d4c0cffc94fda1
     home: https://github.com/scentbird/scentbird-config
     name: argo-chart
     sources:
@@ -51,6 +51,18 @@ entries:
     - https://scentbird.github.io/helm-charts/argo-chart-1.0.1.tgz
     version: 1.0.1
   base-canary-chart:
+  - apiVersion: v2
+    created: "2023-12-11T20:39:30.194078715Z"
+    description: base-canary-chart
+    digest: bcfe35673c320e286e0498fd767dfb9c29d51d017c81dae8c7c57a4c5aef0ebb
+    home: https://github.com/scentbird/scentbird-config
+    name: base-canary-chart
+    sources:
+    - https://github.com/scentbird/scentbird-config
+    type: application
+    urls:
+    - https://scentbird.github.io/helm-charts/base-canary-chart-1.6.6.tgz
+    version: 1.6.6
   - apiVersion: v2
     created: "2023-12-01T17:28:24.784169168Z"
     description: base-canary-chart
@@ -196,6 +208,18 @@ entries:
     - https://scentbird.github.io/helm-charts/base-canary-chart-1.5.0.tgz
     version: 1.5.0
   base-chart:
+  - apiVersion: v2
+    created: "2023-12-11T20:39:30.194781705Z"
+    description: base-chart
+    digest: 72873a7eaee00a32ac0d6f2666b549af765584bbac0ef0b8f66e9c4c6e762c33
+    home: https://github.com/scentbird/scentbird-config
+    name: base-chart
+    sources:
+    - https://github.com/scentbird/scentbird-config
+    type: application
+    urls:
+    - https://scentbird.github.io/helm-charts/base-chart-1.6.6.tgz
+    version: 1.6.6
   - apiVersion: v2
     created: "2023-12-01T17:28:24.784974525Z"
     description: base-chart
@@ -367,9 +391,9 @@ entries:
   cron-chart:
   - apiVersion: v2
     appVersion: '{{ .Env.APP_VERSION }}'
-    created: "2023-12-01T17:28:24.785563966Z"
+    created: "2023-12-11T20:39:30.195259298Z"
     description: cron-chart
-    digest: a52888df955e865d7375c4b1fd61d9275469cfd29822b785e64cb111ec6e60dd
+    digest: 748c9b3a3427986e9426fae75f6779249682d096b5203be4f8831c78b6944dc0
     home: https://github.com/scentbird/scentbird-config
     name: cron-chart
     sources:
@@ -378,4 +402,4 @@ entries:
     urls:
     - https://scentbird.github.io/helm-charts/cron-chart-1.1.0.tgz
     version: 1.1.0
-generated: "2023-12-01T17:28:24.782500551Z"
+generated: "2023-12-11T20:39:30.191723147Z"
