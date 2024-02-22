@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   argo-chart:
   - apiVersion: v2
-    created: "2024-02-22T18:06:24.792966385Z"
+    created: "2024-02-22T18:07:05.111724963Z"
     description: argo-chart
-    digest: bd68f77920ebc553d570da2aae0b5b732a161ad8e6cf4761f5fe5db09c634744
+    digest: 3afc4c21c03477023f1466a8cf4ec7ad43e38eb2449c00d0ff2667e13297d54f
     home: https://github.com/scentbird/scentbird-config
     name: argo-chart
     sources:
@@ -52,9 +52,9 @@ entries:
     version: 1.0.1
   base-canary-chart:
   - apiVersion: v2
-    created: "2024-02-22T18:06:24.793736179Z"
+    created: "2024-02-22T18:07:05.112448757Z"
     description: base-canary-chart
-    digest: 37929f130c1b09b6fab127633bbad6e012df33ffd93f71762a246c1a288d3375
+    digest: 24360feb874e78d6336819473232980f1f32a75c55738c07248fb8c31f591fc0
     home: https://github.com/scentbird/scentbird-config
     name: base-canary-chart
     sources:
@@ -209,9 +209,9 @@ entries:
     version: 1.5.0
   base-chart:
   - apiVersion: v2
-    created: "2024-02-22T18:06:24.794412274Z"
+    created: "2024-02-22T18:07:05.113089851Z"
     description: base-chart
-    digest: 7dcb16474221f602f86e538e958bd3859d5103f89334668cee3856c32758f09f
+    digest: 9c86f5f6e8755c01952699708702a49b0b62ea5659f5f29304a7f454672ecf05
     home: https://github.com/scentbird/scentbird-config
     name: base-chart
     sources:
@@ -403,9 +403,9 @@ entries:
   cron-chart:
   - apiVersion: v2
     appVersion: '{{ .Env.APP_VERSION }}'
-    created: "2024-02-22T18:06:24.794885471Z"
+    created: "2024-02-22T18:07:05.113563347Z"
     description: cron-chart
-    digest: 6b2b07701c3011db52c27d35247e67de583273203b9b465d8983c9220484c88b
+    digest: 2d9cbca9ae3065e650ebb0ba04659a4ce7674b2503f1293e539656705cf4b487
     home: https://github.com/scentbird/scentbird-config
     name: cron-chart
     sources:
@@ -414,4 +414,4 @@ entries:
     urls:
     - https://scentbird.github.io/helm-charts/cron-chart-1.1.0.tgz
     version: 1.1.0
-generated: "2024-02-22T18:06:24.792203191Z"
+generated: "2024-02-22T18:07:05.110719372Z"
