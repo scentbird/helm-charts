@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   argo-chart:
   - apiVersion: v2
-    created: "2026-10-02T14:11:21.095575843Z"
+    created: "2026-10-02T14:12:36.196655155Z"
     description: argo-chart
-    digest: 7e748d8fe750572fe5bc191f68196cdac583e0a1d1cec1c24e7a7c9ea38ef46f
+    digest: f3aaa06f186a0b265f04be4b3469db07b358e2df4ef2b3b61dea83df5240011a
     home: https://github.com/scentbird/scentbird-config
     name: argo-chart
     sources:
@@ -64,9 +64,9 @@ entries:
     version: 1.0.1
   base-canary-chart:
   - apiVersion: v2
-    created: "2026-10-02T14:11:21.096430639Z"
+    created: "2026-10-02T14:12:36.198021761Z"
     description: base-canary-chart
-    digest: daf77136afdd440ec2e48abc839ed776057dd8c4e0179b54977dc9540bb9df9e
+    digest: 718218bd47828d877fb2a3bf512d7bcb18c16d485ff1b96a84bc42bca00d1e4f
     home: https://github.com/scentbird/scentbird-config
     name: base-canary-chart
     sources:
@@ -389,9 +389,9 @@ entries:
     version: 1.5.0
   base-chart:
   - apiVersion: v2
-    created: "2026-10-02T14:11:21.097112848Z"
+    created: "2026-10-02T14:12:36.19854886Z"
     description: base-chart
-    digest: 8d6d1372c8c246ae6b9e4386e358e426ea92d81f89d0f45a0a400022b7645850
+    digest: f3aa2309223c0a52c8889ff817effccf52618992a5c5a84f94608d5a0ecf1f8b
     home: https://github.com/scentbird/scentbird-config
     name: base-chart
     sources:
@@ -655,9 +655,9 @@ entries:
   cron-chart:
   - apiVersion: v2
     appVersion: '{{ .Env.APP_VERSION }}'
-    created: "2026-10-02T14:11:21.097507227Z"
+    created: "2026-10-02T14:12:36.198860797Z"
     description: cron-chart
-    digest: 90b4ed658051e8e4034669275cfa69f327d12968f971306bcb07afaf9563a5ed
+    digest: 6ebe33975cd60e604790e6f43b762f7aab6b1fd73cb092b006b6c6bb4fd2e112
     home: https://github.com/scentbird/scentbird-config
     name: cron-chart
     sources:
@@ -679,4 +679,4 @@ entries:
     urls:
     - https://scentbird.github.io/helm-charts/cron-chart-1.1.0.tgz
     version: 1.1.0
-generated: "2026-10-02T14:11:21.091785416Z"
+generated: "2026-10-02T14:12:36.195765744Z"
