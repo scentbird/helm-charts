@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   argo-chart:
   - apiVersion: v2
-    created: "2026-10-27T16:26:54.039843476Z"
+    created: "2026-10-28T11:09:36.741291642Z"
     description: argo-chart
-    digest: 78ac09ef49b67c569f91cac443a5cf14ecb459e15a68bb12aa8a4f952eae977c
+    digest: fe3407e02bc7530e3933fe84e5d4e7e3c50fef8fcf1bba6434ec4cf00738b9d9
     home: https://github.com/scentbird/scentbird-config
     name: argo-chart
     sources:
@@ -64,9 +64,9 @@ entries:
     version: 1.0.1
   base-canary-chart:
   - apiVersion: v2
-    created: "2026-10-27T16:26:54.040689261Z"
+    created: "2026-10-28T11:09:36.742259132Z"
     description: base-canary-chart
-    digest: 1aeb495d26b754c955aac1776dcc16e38af9f448045ba101f4f2288dc8a3a26d
+    digest: f3ebeb030c30e925229acec815a355f1c8247558e4942a55c45feac668e4f6b3
     home: https://github.com/scentbird/scentbird-config
     name: base-canary-chart
     sources:
@@ -437,9 +437,9 @@ entries:
     version: 1.5.0
   base-chart:
   - apiVersion: v2
-    created: "2026-10-27T16:26:54.041414756Z"
+    created: "2026-10-28T11:09:36.743116405Z"
     description: base-chart
-    digest: 39343698e981aafe40267afffbaf3cbdc12852108364e009d7a54aa293db7a48
+    digest: a68b187c08ad2c03c946f673a22563e399f91581e8a1fce4a341b3f6cb24e0c7
     home: https://github.com/scentbird/scentbird-config
     name: base-chart
     sources:
@@ -715,9 +715,9 @@ entries:
   cron-chart:
   - apiVersion: v2
     appVersion: '{{ .Env.APP_VERSION }}'
-    created: "2026-10-27T16:26:54.041808825Z"
+    created: "2026-10-28T11:09:36.743599354Z"
     description: cron-chart
-    digest: e43a0c1e8916b8c0a91657f03b187962316031cd998a7787976bbebe1ef7eba1
+    digest: 7285259132d964422a331f3a4a37193cdde88eb020a203bf052dfa39fca34e42
     home: https://github.com/scentbird/scentbird-config
     name: cron-chart
     sources:
@@ -739,4 +739,4 @@ entries:
     urls:
     - https://scentbird.github.io/helm-charts/cron-chart-1.1.0.tgz
     version: 1.1.0
-generated: "2026-10-27T16:26:54.03836159Z"
+generated: "2026-10-28T11:09:36.740616973Z"
