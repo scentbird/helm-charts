@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   argo-chart:
   - apiVersion: v2
-    created: "2026-11-10T20:13:31.956942111Z"
+    created: "2026-11-11T11:20:28.512778784Z"
     description: argo-chart
-    digest: a79aa77bc15e44ca01e36dbcc801c86a0252e023565fbc07e009b89c1a06ab2a
+    digest: e9a51293cf957b23d2f732429bccd8856dbe739e11d31c1c195c87768a62389e
     home: https://github.com/scentbird/scentbird-config
     name: argo-chart
     sources:
@@ -76,9 +76,9 @@ entries:
     version: 1.0.1
   base-canary-chart:
   - apiVersion: v2
-    created: "2026-11-10T20:13:31.957471401Z"
+    created: "2026-11-11T11:20:28.513346447Z"
     description: base-canary-chart
-    digest: cef61e51dac938a6001f406785863e7d0a2a4275392823ec19ea214946e8a324
+    digest: 05846b3027245a23ac1f67bef5e51854f51a6d3ff73c6ef97516af96e06c29b0
     home: https://github.com/scentbird/scentbird-config
     name: base-canary-chart
     sources:
@@ -461,9 +461,9 @@ entries:
     version: 1.5.0
   base-chart:
   - apiVersion: v2
-    created: "2026-11-10T20:13:31.957950606Z"
+    created: "2026-11-11T11:20:28.513849873Z"
     description: base-chart
-    digest: 0697b0d963f2f660fc91277a12f5d63bbe30757c344599ebee759137a92ef38d
+    digest: 19dea3312b44f5c0fbbdcf6cfbfacd05e8100f0e334ecd3e3ecb6abade13bbd2
     home: https://github.com/scentbird/scentbird-config
     name: base-chart
     sources:
@@ -763,9 +763,9 @@ entries:
   cron-chart:
   - apiVersion: v2
     appVersion: '{{ .Env.APP_VERSION }}'
-    created: "2026-11-10T20:13:31.9581948Z"
+    created: "2026-11-11T11:20:28.514095712Z"
     description: cron-chart
-    digest: 0665f9e191166d0d011d0a28e60185baca9a758068578021ba292b33e8fd7ada
+    digest: f0c510f70287c9a3e29ca509f3f8c15722abfbccf0c95a83591e70b0a320dcf7
     home: https://github.com/scentbird/scentbird-config
     name: cron-chart
     sources:
@@ -800,4 +800,4 @@ entries:
     urls:
     - https://scentbird.github.io/helm-charts/cron-chart-1.1.0.tgz
     version: 1.1.0
-generated: "2026-11-10T20:13:31.956501173Z"
+generated: "2026-11-11T11:20:28.512311562Z"
